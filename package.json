@@ -24,7 +24,9 @@
     "homepage": "https://github.com/jonathantneal/google-fonts-complete",
     "scripts": {
         "generateList": "node ./generate-api-response.js",
-        "generateFonts": "node ./google-fonts-generator.js"
+        "generateFonts": "node ./google-fonts-generator.js",
+        "get-urls": "node get-urls.js",
+        "get-family-names": "node get-family-names.js"
     },
     "bugs": {
         "url": "https://github.com/jonathantneal/google-fonts-complete/issues"
